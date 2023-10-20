@@ -40,6 +40,13 @@ app.post("/api/signup", (req, res) => {
   }
 });
 
+app.get("/api/login", (req, res) => {
+  const authToken = req.headers.authorization;
+  if (authToken)
+    res.status(200).json({ success: true, message: "Login successful" });
+  else res.status(401).json({ success: false, error: "Unauthorized" });
+});
+
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
   next(createError(404));
