@@ -10,7 +10,6 @@ const jwt = require("jsonwebtoken");
 dotenv.config();
 const app = express();
 
-// view engine setup
 app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "jade");
 
@@ -47,19 +46,20 @@ app.get("/api/login", (req, res) => {
   else res.status(401).json({ success: false, error: "Unauthorized" });
 });
 
-// catch 404 and forward to error handler
+app.get("/api/weather", (req, res) => {
+  const response = require("./mock/data.json");
+  console.log("response =>", response);
+  res.status(200).json(response);
+});
+
 app.use(function (req, res, next) {
   next(createError(404));
 });
 
-// error handler
 app.use(function (err, req, res, next) {
-  console.log("error =>", err);
-  // set locals, only providing error in development
   res.locals.message = err.message;
   res.locals.error = req.app.get("env") === "development" ? err : {};
 
-  // render the error page
   res.status(err.status || 500);
   res.render("error");
 });

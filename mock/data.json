@@ -1,0 +1,197 @@
+{
+  "responseStatus": "SUCCESS",
+  "message": { "key": "SUC0002", "value": "Retrieved successfully." },
+  "response": {
+    "salesPeriod": "35 days(12/26/2021-01/30/2022)",
+    "weatherData": [
+      {
+        "hiTempNum": 77,
+        "loTempNum": 44,
+        "wthrDte": "2022-01-24T00:00:00",
+        "wthrIcon": "GL_DAYNITE"
+      },
+      {
+        "hiTempNum": 77,
+        "loTempNum": 44,
+        "wthrDte": "2022-01-25T00:00:00",
+        "wthrIcon": "GL_DAYNITE"
+      },
+      {
+        "hiTempNum": 77,
+        "loTempNum": 44,
+        "wthrDte": "2022-01-26T00:00:00",
+        "wthrIcon": "GL_DAYNITE"
+      },
+      {
+        "hiTempNum": 77,
+        "loTempNum": 44,
+        "wthrDte": "2022-01-27T00:00:00",
+        "wthrIcon": "GL_DAYNITE"
+      },
+      {
+        "hiTempNum": 77,
+        "loTempNum": 44,
+        "wthrDte": "2022-01-28T00:00:00",
+        "wthrIcon": "GL_DAYNITE"
+      },
+      {
+        "hiTempNum": 77,
+        "loTempNum": 44,
+        "wthrDte": "2022-01-29T00:00:00",
+        "wthrIcon": "GL_DAYNITE"
+      },
+      {
+        "hiTempNum": 77,
+        "loTempNum": 44,
+        "wthrDte": "2022-01-30T00:00:00",
+        "wthrIcon": "GL_DAYNITE"
+      }
+    ],
+    "categoryAnalysisWeekly": [
+      {
+        "fromDate": "2022-01-24",
+        "toDate": "2022-01-30",
+        "psaCode": "10",
+        "psaTotalSales": "41",
+        "psaTotalWriteOffs": "1",
+        "categoryCode": "02",
+        "categoryDescription": "baking",
+        "deliveries": "444",
+        "sales": "35",
+        "writeOffs": "1",
+        "weekNumber": 1
+      },
+      {
+        "fromDate": "2022-01-17",
+        "toDate": "2022-01-23",
+        "psaCode": "10",
+        "psaTotalSales": "7",
+        "psaTotalWriteOffs": "1",
+        "categoryCode": "02",
+        "categoryDescription": "baking",
+        "deliveries": "444",
+        "sales": "35",
+        "writeOffs": "1",
+        "weekNumber": 2
+      },
+      {
+        "fromDate": "2022-01-10",
+        "toDate": "2022-01-16",
+        "psaCode": "10",
+        "psaTotalSales": "10",
+        "psaTotalWriteOffs": "2",
+        "categoryCode": "02",
+        "categoryDescription": "baking",
+        "deliveries": "444",
+        "sales": "35",
+        "writeOffs": "1",
+        "weekNumber": 3
+      },
+      {
+        "fromDate": "2022-01-03",
+        "toDate": "2022-01-09",
+        "psaCode": "10",
+        "psaTotalSales": "12",
+        "psaTotalWriteOffs": "1",
+        "categoryCode": "02",
+        "categoryDescription": "baking",
+        "deliveries": "444",
+        "sales": "35",
+        "writeOffs": "1",
+        "weekNumber": 4
+      },
+      {
+        "fromDate": "2021-12-27",
+        "toDate": "2022-01-02",
+        "psaCode": "10",
+        "psaTotalSales": "7",
+        "psaTotalWriteOffs": "1",
+        "categoryCode": "02",
+        "categoryDescription": "baking",
+        "deliveries": "444",
+        "sales": "35",
+        "writeOffs": "1",
+        "weekNumber": 5
+      },
+      {
+        "fromDate": "2022-01-24",
+        "toDate": "2022-01-30",
+        "psaCode": "10",
+        "psaTotalSales": "41",
+        "psaTotalWriteOffs": "1",
+        "categoryCode": "01",
+        "categoryDescription": "baby food",
+        "deliveries": "294",
+        "sales": "35",
+        "writeOffs": "0",
+        "weekNumber": 1
+      },
+      {
+        "fromDate": "2022-01-17",
+        "toDate": "2022-01-23",
+        "psaCode": "10",
+        "psaTotalSales": "7",
+        "psaTotalWriteOffs": "1",
+        "categoryCode": "01",
+        "categoryDescription": "baby food",
+        "deliveries": "294",
+        "sales": "2",
+        "writeOffs": "0",
+        "weekNumber": 2
+      },
+      {
+        "fromDate": "2022-01-03",
+        "toDate": "2022-01-09",
+        "psaCode": "10",
+        "psaTotalSales": "12",
+        "psaTotalWriteOffs": "1",
+        "categoryCode": "01",
+        "categoryDescription": "baby food",
+        "deliveries": "444",
+        "sales": "4",
+        "writeOffs": "0",
+        "weekNumber": 4
+      },
+      {
+        "fromDate": "2021-12-27",
+        "toDate": "2022-01-02",
+        "psaCode": "10",
+        "psaTotalSales": "7",
+        "psaTotalWriteOffs": "1",
+        "categoryCode": "01",
+        "categoryDescription": "baby food",
+        "deliveries": "444",
+        "sales": "5",
+        "writeOffs": "1",
+        "weekNumber": 5
+      },
+      {
+        "fromDate": "2022-01-10",
+        "toDate": "2022-01-16",
+        "psaCode": "10",
+        "psaTotalSales": "10",
+        "psaTotalWriteOffs": "2",
+        "categoryCode": "01",
+        "categoryDescription": "baby food",
+        "deliveries": "444",
+        "sales": "6",
+        "writeOffs": "0",
+        "weekNumber": 3
+      }
+    ],
+    "categoryAnalysisDaily": [
+      {
+        "date": "2022-01-25",
+        "psaCode": "10",
+        "psaTotalSales": 10,
+        "psaTotalWriteOffs": 10,
+        "categoryCode": 1,
+        "categoryDescription": "baby food",
+        "deliveries": 3,
+        "sales": 3,
+        "writeOffs": 0,
+        "weekNumber": 1
+      }
+    ]
+  }
+}
